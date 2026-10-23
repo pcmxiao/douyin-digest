@@ -34,13 +34,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_NAME/douyin-digest.git"
+    "url": "git+https://github.com/pcmxiao/douyin-digest.git"
   },
   "scripts": {
     "start": "node bin/cli.mjs"
   },
-  "homepage": "https://github.com/YOUR_NAME/douyin-digest#readme",
+  "homepage": "https://github.com/pcmxiao/douyin-digest#readme",
   "bugs": {
-    "url": "https://github.com/YOUR_NAME/douyin-digest/issues"
+    "url": "https://github.com/pcmxiao/douyin-digest/issues"
   }
 }

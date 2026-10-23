@@ -356,7 +356,7 @@ watch --reply-cmd "./my-reply.sh" --yes
 ## 开发
 
 ```bash
-git clone https://github.com/YOUR_NAME/douyin-digest
+git clone https://github.com/pcmxiao/douyin-digest
 cd douyin-digest
 node bin/cli.mjs --help     # 直接跑，不用装依赖
 
