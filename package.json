@@ -1,0 +1,46 @@
+{
+  "name": "douyin-digest",
+  "version": "0.1.0",
+  "description": "抖音精选：自动搜索、读文案评论、打分挑出值得看的，分享到私信。零依赖，只要 Node 和一个浏览器。",
+  "type": "module",
+  "bin": {
+    "douyin-digest": "./bin/cli.mjs"
+  },
+  "exports": {
+    ".": "./src/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "bin",
+    "src",
+    "examples",
+    "README.md",
+    "ROADMAP.md",
+    "DISCLAIMER.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "douyin",
+    "tiktok-china",
+    "cli",
+    "digest",
+    "cdp",
+    "browser-automation",
+    "zero-dependency"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_NAME/douyin-digest.git"
+  },
+  "scripts": {
+    "start": "node bin/cli.mjs"
+  },
+  "homepage": "https://github.com/YOUR_NAME/douyin-digest#readme",
+  "bugs": {
+    "url": "https://github.com/YOUR_NAME/douyin-digest/issues"
+  }
+}

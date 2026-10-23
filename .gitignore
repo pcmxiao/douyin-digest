@@ -1,0 +1,33 @@
+# 依赖
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# 运行时产生的数据（都在 ~/.douyin-digest/，这里只是兜底）
+/.douyin-digest/
+*.log
+watch-state.json
+seen.md
+out/
+shots/
+
+# ⌨️ 绝对不要提交的东西
+# 浏览器 profile 里有登录凭据
+profiles/
+*.zstd
+*.all.jsonl
+*.plain.jsonl
+*.cookies.json
+*.cred*.json
+.env
+.env.*
+credentials.yaml
+.credentials.yaml
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
